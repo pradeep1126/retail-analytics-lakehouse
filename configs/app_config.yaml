@@ -1,0 +1,13 @@
+project:
+  name: retail-analytics-lakehouse
+
+storage:
+  bronze_bucket: bronze
+  silver_bucket: silver
+  gold_bucket: gold
+
+spark:
+  app_name: retail-analytics-platform
+
+minio:
+  endpoint: http://minio:9000
