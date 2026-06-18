@@ -1,0 +1,25 @@
+datasets:
+
+aisles:
+source_path: data/source/archive/aisles.csv
+bronze_path: bronze/aisles
+
+departments:
+source_path: data/source/archive/departments.csv
+bronze_path: bronze/departments
+
+products:
+source_path: data/source/archive/products.csv
+bronze_path: bronze/products
+
+orders:
+source_path: data/source/archive/orders.csv
+bronze_path: bronze/orders
+
+order_products_prior:
+source_path: data/source/archive/order_products__prior.csv
+bronze_path: bronze/order_products_prior
+
+order_products_train:
+source_path: data/source/archive/order_products__train.csv
+bronze_path: bronze/order_products_train
