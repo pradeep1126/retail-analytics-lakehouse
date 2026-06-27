@@ -1,0 +1,162 @@
+aisles:
+  table_name: aisles
+
+  bronze_path: "bronze/aisles"
+  silver_path: "silver/aisles"
+
+  file_format: "csv"
+  write_format: "parquet"
+
+  save_mode: "overwrite"
+  compression: "snappy"
+
+  partition_by: []
+
+  schema_name: "aisles_schema"
+
+  primary_key:
+    - aisle_id
+
+  drop_duplicates: true
+
+  required_columns:
+    - aisle_id
+    - aisle
+
+products:
+  table_name: products
+
+  bronze_path: "bronze/products"
+  silver_path: "silver/products"
+
+  file_format: "csv"
+  write_format: "parquet"
+
+  save_mode: "overwrite"
+  compression: "snappy"
+
+  partition_by: []
+
+  schema_name: "products_schema"
+
+  primary_key:
+    - product_id
+
+  drop_duplicates: true
+
+  required_columns:
+    - product_id
+    - product_name
+    - aisle_id
+    - department_id
+
+departments:
+  table_name: departments
+
+  bronze_path: "bronze/departments"
+  silver_path: "silver/departments"
+
+  file_format: "csv"
+  write_format: "parquet"
+
+  save_mode: "overwrite"
+  compression: "snappy"
+
+  partition_by: []
+
+  schema_name: "departments_schema"
+
+  primary_key:
+    - department_id
+
+  drop_duplicates: true
+
+  required_columns:
+    - department_id
+    - department
+
+orders:
+  table_name: orders
+
+  bronze_path: "bronze/orders"
+  silver_path: "silver/orders"
+
+  file_format: "csv"
+  write_format: "parquet"
+
+  save_mode: "overwrite"
+  compression: "snappy"
+
+  partition_by: []
+
+  schema_name: "orders_schema"
+
+  primary_key:
+    - order_id
+
+  drop_duplicates: true
+
+  required_columns:
+    - order_id
+    - user_id
+    - eval_set
+    - order_number
+    - order_dow
+    - order_hour_of_day
+    - days_since_prior_order
+
+order_products__prior:
+  table_name: order_products__prior
+
+  bronze_path: "bronze/order_products__prior"
+  silver_path: "silver/order_products__prior"
+
+  file_format: "csv"
+  write_format: "parquet"
+
+  save_mode: "overwrite"
+  compression: "snappy"
+
+  partition_by: []
+
+  schema_name: "order_products_prior_schema"
+
+  primary_key:
+    - order_id
+    - product_id
+
+  drop_duplicates: true
+
+  required_columns:
+    - order_id
+    - product_id
+    - add_to_cart_order
+    - reordered
+
+order_products__train:
+  table_name: order_products__train
+
+  bronze_path: "bronze/order_products__train"
+  silver_path: "silver/order_products__train"
+
+  file_format: "csv"
+  write_format: "parquet"
+
+  save_mode: "overwrite"
+  compression: "snappy"
+
+  partition_by: []
+
+  schema_name: "order_products_train_schema"
+
+  primary_key:
+    - order_id
+    - product_id
+
+  drop_duplicates: true
+
+  required_columns:
+    - order_id
+    - product_id
+    - add_to_cart_order
+    - reordered

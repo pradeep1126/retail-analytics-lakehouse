@@ -1,4 +1,7 @@
-from metadata.metadata_manager import create_metadata_record
+from metadata.metadata_manager import (
+    create_metadata_record,
+    write_metadata_record,
+)
 
 record = create_metadata_record(
     dataset_name="aisles",
@@ -12,5 +15,6 @@ record = create_metadata_record(
     checksum="abc123",
     run_id="manual_001",
 )
-
+write_metadata_record(record)
+print("Metadata written successfully")
 print(record)

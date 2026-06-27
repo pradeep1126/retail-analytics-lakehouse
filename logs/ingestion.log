@@ -1,3 +1,121 @@
 2026-06-18 16:40:48,974 | INFO | Logger initialized
 2026-06-18 16:40:48,975 | WARNING | Test warning
 2026-06-18 16:40:48,975 | ERROR | Test error
+2026-06-24 11:30:20,808 | INFO | aisles/load_date=2026-06-24/aisles.csv uploaded successfully
+2026-06-24 11:59:54,457 | INFO | Metadata record created
+2026-06-24 11:59:54,458 | INFO | {'dataset_name': 'aisles', 'source_file_name': 'aisles.csv', 'source_file_path': 'data\\source\\archive\\aisles.csv', 'file_size_bytes': 2603, 'row_count': 134, 'column_count': 2, 'column_names': 'aisle_id,aisle', 'load_date': '2026-06-24', 'ingestion_timestamp': '2026-06-24T06:29:54.457682', 'checksum': 'bc49e521faa60e1542d4a94cac3e3bb0', 'run_id': 'aisles_20260624062954'}
+2026-06-24 11:59:54,458 | INFO | audit record created
+2026-06-24 11:59:54,458 | INFO | {'run_id': 'aisles_20260624062954', 'dataset_name': 'aisles', 'start_time': '2026-06-24T06:29:54.435163+00:00', 'end_time': '2026-06-24T06:29:54.457685+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 134, 'file_name': 'aisles.csv', 'error_message': None}
+2026-06-24 11:59:54,547 | INFO | aisles/load_date=2026-06-24/aisles.csv uploaded successfully
+2026-06-25 14:45:25,139 | INFO | Metadata record created
+2026-06-25 14:45:25,140 | INFO | {'dataset_name': 'aisles', 'source_file_name': 'aisles.csv', 'source_file_path': 'data/source/archive/aisles.csv', 'file_size_bytes': 2603, 'row_count': 134, 'column_count': 2, 'column_names': 'aisle_id,aisle', 'load_date': '2026-06-25', 'ingestion_timestamp': '2026-06-25T14:45:25.139873', 'checksum': 'bc49e521faa60e1542d4a94cac3e3bb0', 'run_id': 'aisles_20260625144525'}
+2026-06-25 14:45:25,141 | INFO | audit record created
+2026-06-25 14:45:25,142 | INFO | {'run_id': 'aisles_20260625144525', 'dataset_name': 'aisles', 'start_time': '2026-06-25T14:45:25.034131+00:00', 'end_time': '2026-06-25T14:45:25.139880+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 134, 'file_name': 'aisles.csv', 'error_message': None}
+2026-06-25 14:45:31,165 | ERROR | Failed to upload file: HTTPConnectionPool(host='localhost', port=9000): Max retries exceeded with url: /bronze?location= (Caused by NewConnectionError("HTTPConnection(host='localhost', port=9000): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-26 07:57:25,722 | INFO | Metadata record created
+2026-06-26 07:57:25,722 | INFO | Metadata record created
+2026-06-26 07:57:25,723 | INFO | {'dataset_name': 'aisles', 'source_file_name': 'aisles.csv', 'source_file_path': 'data/source/archive/aisles.csv', 'file_size_bytes': 2603, 'row_count': 134, 'column_count': 2, 'column_names': 'aisle_id,aisle', 'load_date': '2026-06-26', 'ingestion_timestamp': '2026-06-26T07:57:25.722228', 'checksum': 'bc49e521faa60e1542d4a94cac3e3bb0', 'run_id': 'aisles_20260626075725'}
+2026-06-26 07:57:25,723 | INFO | {'dataset_name': 'aisles', 'source_file_name': 'aisles.csv', 'source_file_path': 'data/source/archive/aisles.csv', 'file_size_bytes': 2603, 'row_count': 134, 'column_count': 2, 'column_names': 'aisle_id,aisle', 'load_date': '2026-06-26', 'ingestion_timestamp': '2026-06-26T07:57:25.722226', 'checksum': 'bc49e521faa60e1542d4a94cac3e3bb0', 'run_id': 'aisles_20260626075725'}
+2026-06-26 07:57:25,723 | INFO | audit record created
+2026-06-26 07:57:25,723 | INFO | audit record created
+2026-06-26 07:57:25,724 | INFO | {'run_id': 'aisles_20260626075725', 'dataset_name': 'aisles', 'start_time': '2026-06-26T07:57:25.643912+00:00', 'end_time': '2026-06-26T07:57:25.722238+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 134, 'file_name': 'aisles.csv', 'error_message': None}
+2026-06-26 07:57:25,724 | INFO | {'run_id': 'aisles_20260626075725', 'dataset_name': 'aisles', 'start_time': '2026-06-26T07:57:25.643907+00:00', 'end_time': '2026-06-26T07:57:25.722242+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 134, 'file_name': 'aisles.csv', 'error_message': None}
+2026-06-26 07:57:25,743 | ERROR | Failed to upload file: S3 operation failed; code: NoSuchBucket, message: The specified bucket does not exist, resource: /bronze, request_id: 18BC92836F543D98, host_id: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8, bucket_name: bronze
+2026-06-26 07:57:25,744 | ERROR | Failed to upload file: S3 operation failed; code: NoSuchBucket, message: The specified bucket does not exist, resource: /bronze, request_id: 18BC92836F5FDD0F, host_id: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8, bucket_name: bronze
+2026-06-26 08:00:04,577 | INFO | Metadata record created
+2026-06-26 08:00:04,578 | INFO | {'dataset_name': 'aisles', 'source_file_name': 'aisles.csv', 'source_file_path': 'data/source/archive/aisles.csv', 'file_size_bytes': 2603, 'row_count': 134, 'column_count': 2, 'column_names': 'aisle_id,aisle', 'load_date': '2026-06-26', 'ingestion_timestamp': '2026-06-26T08:00:04.577632', 'checksum': 'bc49e521faa60e1542d4a94cac3e3bb0', 'run_id': 'aisles_20260626080004'}
+2026-06-26 08:00:04,579 | INFO | audit record created
+2026-06-26 08:00:04,579 | INFO | {'run_id': 'aisles_20260626080004', 'dataset_name': 'aisles', 'start_time': '2026-06-26T08:00:04.550946+00:00', 'end_time': '2026-06-26T08:00:04.577637+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 134, 'file_name': 'aisles.csv', 'error_message': None}
+2026-06-26 08:00:04,601 | INFO | aisles/load_date=2026-06-26/aisles.csv uploaded successfully
+2026-06-26 08:44:07,145 | INFO | Datasets to ingest: ['aisles', 'departments', 'products', 'orders', 'order_products_prior', 'order_products_train']
+2026-06-26 08:44:07,146 | INFO | --- Starting ingestion: aisles ---
+2026-06-26 08:44:07,188 | INFO | Metadata record created
+2026-06-26 08:44:07,189 | INFO | {'dataset_name': 'aisles', 'source_file_name': 'aisles.csv', 'source_file_path': 'data/source/archive/aisles.csv', 'file_size_bytes': 2603, 'row_count': 134, 'column_count': 2, 'column_names': 'aisle_id,aisle', 'load_date': '2026-06-26', 'ingestion_timestamp': '2026-06-26T08:44:07.188597', 'checksum': 'bc49e521faa60e1542d4a94cac3e3bb0', 'run_id': 'aisles_20260626084407'}
+2026-06-26 08:44:07,190 | INFO | Audit record created
+2026-06-26 08:44:07,190 | INFO | {'run_id': 'aisles_20260626084407', 'dataset_name': 'aisles', 'start_time': '2026-06-26T08:44:07.147482+00:00', 'end_time': '2026-06-26T08:44:07.188606+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 134, 'file_name': 'aisles.csv', 'error_message': None}
+2026-06-26 08:44:07,249 | INFO | aisles/load_date=2026-06-26/aisles.csv uploaded successfully
+2026-06-26 08:44:07,462 | INFO | --- Starting ingestion: departments ---
+2026-06-26 08:44:07,516 | INFO | Metadata record created
+2026-06-26 08:44:07,516 | INFO | {'dataset_name': 'departments', 'source_file_name': 'departments.csv', 'source_file_path': 'data/source/archive/departments.csv', 'file_size_bytes': 270, 'row_count': 21, 'column_count': 2, 'column_names': 'department_id,department', 'load_date': '2026-06-26', 'ingestion_timestamp': '2026-06-26T08:44:07.515989', 'checksum': '18d5219db49bd50b403d39016c3ecdc5', 'run_id': 'departments_20260626084407'}
+2026-06-26 08:44:07,517 | INFO | Audit record created
+2026-06-26 08:44:07,518 | INFO | {'run_id': 'departments_20260626084407', 'dataset_name': 'departments', 'start_time': '2026-06-26T08:44:07.463932+00:00', 'end_time': '2026-06-26T08:44:07.515995+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 21, 'file_name': 'departments.csv', 'error_message': None}
+2026-06-26 08:44:07,534 | INFO | departments/load_date=2026-06-26/departments.csv uploaded successfully
+2026-06-26 08:44:07,610 | INFO | --- Starting ingestion: products ---
+2026-06-26 08:44:07,883 | INFO | Metadata record created
+2026-06-26 08:44:07,884 | INFO | {'dataset_name': 'products', 'source_file_name': 'products.csv', 'source_file_path': 'data/source/archive/products.csv', 'file_size_bytes': 2166953, 'row_count': 49688, 'column_count': 4, 'column_names': 'product_id,product_name,aisle_id,department_id', 'load_date': '2026-06-26', 'ingestion_timestamp': '2026-06-26T08:44:07.883814', 'checksum': 'dfcfded9d4af77d8b747913a4cbe6ffc', 'run_id': 'products_20260626084407'}
+2026-06-26 08:44:07,884 | INFO | Audit record created
+2026-06-26 08:44:07,884 | INFO | {'run_id': 'products_20260626084407', 'dataset_name': 'products', 'start_time': '2026-06-26T08:44:07.610976+00:00', 'end_time': '2026-06-26T08:44:07.883818+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 49688, 'file_name': 'products.csv', 'error_message': None}
+2026-06-26 08:44:07,949 | INFO | products/load_date=2026-06-26/products.csv uploaded successfully
+2026-06-26 08:44:08,047 | INFO | --- Starting ingestion: orders ---
+2026-06-26 08:44:17,190 | INFO | Metadata record created
+2026-06-26 08:44:17,190 | INFO | {'dataset_name': 'orders', 'source_file_name': 'orders.csv', 'source_file_path': 'data/source/archive/orders.csv', 'file_size_bytes': 108968645, 'row_count': 3421083, 'column_count': 7, 'column_names': 'order_id,user_id,eval_set,order_number,order_dow,order_hour_of_day,days_since_prior_order', 'load_date': '2026-06-26', 'ingestion_timestamp': '2026-06-26T08:44:17.189997', 'checksum': 'dd0b2f4ee716409b8e79e7b1c611a0b8', 'run_id': 'orders_20260626084408'}
+2026-06-26 08:44:17,190 | INFO | Audit record created
+2026-06-26 08:44:17,191 | INFO | {'run_id': 'orders_20260626084408', 'dataset_name': 'orders', 'start_time': '2026-06-26T08:44:08.048490+00:00', 'end_time': '2026-06-26T08:44:17.190005+00:00', 'duration_seconds': 9, 'status': 'SUCCESS', 'records_processed': 3421083, 'file_name': 'orders.csv', 'error_message': None}
+2026-06-26 08:44:17,989 | INFO | orders/load_date=2026-06-26/orders.csv uploaded successfully
+2026-06-26 08:44:18,091 | INFO | --- Starting ingestion: order_products_prior ---
+2026-06-26 08:45:25,388 | INFO | Metadata record created
+2026-06-26 08:45:25,389 | INFO | {'dataset_name': 'order_products_prior', 'source_file_name': 'order_products__prior.csv', 'source_file_path': 'data/source/archive/order_products__prior.csv', 'file_size_bytes': 577550706, 'row_count': 32434489, 'column_count': 4, 'column_names': 'order_id,product_id,add_to_cart_order,reordered', 'load_date': '2026-06-26', 'ingestion_timestamp': '2026-06-26T08:45:25.387581', 'checksum': '8bca7ad1968ee8e07760b94db74461fb', 'run_id': 'order_products_prior_20260626084418'}
+2026-06-26 08:45:25,389 | INFO | Audit record created
+2026-06-26 08:45:25,389 | INFO | {'run_id': 'order_products_prior_20260626084418', 'dataset_name': 'order_products_prior', 'start_time': '2026-06-26T08:44:18.092724+00:00', 'end_time': '2026-06-26T08:45:25.387589+00:00', 'duration_seconds': 67, 'status': 'SUCCESS', 'records_processed': 32434489, 'file_name': 'order_products__prior.csv', 'error_message': None}
+2026-06-26 08:45:29,074 | INFO | order_products_prior/load_date=2026-06-26/order_products_prior.csv uploaded successfully
+2026-06-26 08:45:29,168 | INFO | --- Starting ingestion: order_products_train ---
+2026-06-26 08:45:30,972 | INFO | Metadata record created
+2026-06-26 08:45:30,972 | INFO | {'dataset_name': 'order_products_train', 'source_file_name': 'order_products__train.csv', 'source_file_path': 'data/source/archive/order_products__train.csv', 'file_size_bytes': 24680147, 'row_count': 1384617, 'column_count': 4, 'column_names': 'order_id,product_id,add_to_cart_order,reordered', 'load_date': '2026-06-26', 'ingestion_timestamp': '2026-06-26T08:45:30.972426', 'checksum': '5d8f7580855097e3644ea626ee430b75', 'run_id': 'order_products_train_20260626084529'}
+2026-06-26 08:45:30,973 | INFO | Audit record created
+2026-06-26 08:45:30,973 | INFO | {'run_id': 'order_products_train_20260626084529', 'dataset_name': 'order_products_train', 'start_time': '2026-06-26T08:45:29.169156+00:00', 'end_time': '2026-06-26T08:45:30.972431+00:00', 'duration_seconds': 1, 'status': 'SUCCESS', 'records_processed': 1384617, 'file_name': 'order_products__train.csv', 'error_message': None}
+2026-06-26 08:45:31,150 | INFO | order_products_train/load_date=2026-06-26/order_products_train.csv uploaded successfully
+2026-06-26 08:45:31,229 | INFO | ========================================
+2026-06-26 08:45:31,230 | INFO | SUMMARY  |  total=6  passed=6  failed=0
+2026-06-26 08:45:31,230 | INFO |   ✓ aisles, departments, products, orders, order_products_prior, order_products_train
+2026-06-26 08:45:31,231 | INFO | ========================================
+2026-06-27 06:34:47,643 | INFO | Datasets to ingest: ['aisles', 'departments', 'products', 'orders', 'order_products_prior', 'order_products_train']
+2026-06-27 06:34:47,646 | INFO | --- Starting ingestion: aisles ---
+2026-06-27 06:34:47,790 | INFO | Metadata record created
+2026-06-27 06:34:47,791 | INFO | {'dataset_name': 'aisles', 'source_file_name': 'aisles.csv', 'source_file_path': 'data/source/archive/aisles.csv', 'file_size_bytes': 2603, 'row_count': 134, 'column_count': 2, 'column_names': 'aisle_id,aisle', 'load_date': '2026-06-27', 'ingestion_timestamp': '2026-06-27T06:34:47.790883', 'checksum': 'bc49e521faa60e1542d4a94cac3e3bb0', 'run_id': 'aisles_20260627063447'}
+2026-06-27 06:34:47,793 | INFO | Audit record created
+2026-06-27 06:34:47,794 | INFO | {'run_id': 'aisles_20260627063447', 'dataset_name': 'aisles', 'start_time': '2026-06-27T06:34:47.648024+00:00', 'end_time': '2026-06-27T06:34:47.790909+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 134, 'file_name': 'aisles.csv', 'error_message': None}
+2026-06-27 06:34:48,019 | INFO | aisles/load_date=2026-06-27/aisles.csv uploaded successfully
+2026-06-27 06:34:49,116 | INFO | --- Starting ingestion: departments ---
+2026-06-27 06:34:49,173 | INFO | Metadata record created
+2026-06-27 06:34:49,174 | INFO | {'dataset_name': 'departments', 'source_file_name': 'departments.csv', 'source_file_path': 'data/source/archive/departments.csv', 'file_size_bytes': 270, 'row_count': 21, 'column_count': 2, 'column_names': 'department_id,department', 'load_date': '2026-06-27', 'ingestion_timestamp': '2026-06-27T06:34:49.173828', 'checksum': '18d5219db49bd50b403d39016c3ecdc5', 'run_id': 'departments_20260627063449'}
+2026-06-27 06:34:49,175 | INFO | Audit record created
+2026-06-27 06:34:49,176 | INFO | {'run_id': 'departments_20260627063449', 'dataset_name': 'departments', 'start_time': '2026-06-27T06:34:49.117933+00:00', 'end_time': '2026-06-27T06:34:49.173851+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 21, 'file_name': 'departments.csv', 'error_message': None}
+2026-06-27 06:34:49,220 | INFO | departments/load_date=2026-06-27/departments.csv uploaded successfully
+2026-06-27 06:34:49,360 | INFO | --- Starting ingestion: products ---
+2026-06-27 06:34:49,709 | INFO | Metadata record created
+2026-06-27 06:34:49,709 | INFO | {'dataset_name': 'products', 'source_file_name': 'products.csv', 'source_file_path': 'data/source/archive/products.csv', 'file_size_bytes': 2166953, 'row_count': 49688, 'column_count': 4, 'column_names': 'product_id,product_name,aisle_id,department_id', 'load_date': '2026-06-27', 'ingestion_timestamp': '2026-06-27T06:34:49.709119', 'checksum': 'dfcfded9d4af77d8b747913a4cbe6ffc', 'run_id': 'products_20260627063449'}
+2026-06-27 06:34:49,710 | INFO | Audit record created
+2026-06-27 06:34:49,711 | INFO | {'run_id': 'products_20260627063449', 'dataset_name': 'products', 'start_time': '2026-06-27T06:34:49.362841+00:00', 'end_time': '2026-06-27T06:34:49.709130+00:00', 'duration_seconds': 0, 'status': 'SUCCESS', 'records_processed': 49688, 'file_name': 'products.csv', 'error_message': None}
+2026-06-27 06:34:49,917 | INFO | products/load_date=2026-06-27/products.csv uploaded successfully
+2026-06-27 06:34:50,056 | INFO | --- Starting ingestion: orders ---
+2026-06-27 06:35:40,779 | INFO | Metadata record created
+2026-06-27 06:35:40,807 | INFO | {'dataset_name': 'orders', 'source_file_name': 'orders.csv', 'source_file_path': 'data/source/archive/orders.csv', 'file_size_bytes': 108968645, 'row_count': 3421083, 'column_count': 7, 'column_names': 'order_id,user_id,eval_set,order_number,order_dow,order_hour_of_day,days_since_prior_order', 'load_date': '2026-06-27', 'ingestion_timestamp': '2026-06-27T06:35:40.765431', 'checksum': 'dd0b2f4ee716409b8e79e7b1c611a0b8', 'run_id': 'orders_20260627063450'}
+2026-06-27 06:35:40,813 | INFO | Audit record created
+2026-06-27 06:35:40,814 | INFO | {'run_id': 'orders_20260627063450', 'dataset_name': 'orders', 'start_time': '2026-06-27T06:34:50.059280+00:00', 'end_time': '2026-06-27T06:35:40.765634+00:00', 'duration_seconds': 50, 'status': 'SUCCESS', 'records_processed': 3421083, 'file_name': 'orders.csv', 'error_message': None}
+2026-06-27 06:35:48,719 | INFO | orders/load_date=2026-06-27/orders.csv uploaded successfully
+2026-06-27 06:35:49,730 | INFO | --- Starting ingestion: order_products_prior ---
+2026-06-27 06:38:46,551 | INFO | Metadata record created
+2026-06-27 06:38:46,554 | INFO | {'dataset_name': 'order_products_prior', 'source_file_name': 'order_products__prior.csv', 'source_file_path': 'data/source/archive/order_products__prior.csv', 'file_size_bytes': 577550706, 'row_count': 32434489, 'column_count': 4, 'column_names': 'order_id,product_id,add_to_cart_order,reordered', 'load_date': '2026-06-27', 'ingestion_timestamp': '2026-06-27T06:38:46.548770', 'checksum': '8bca7ad1968ee8e07760b94db74461fb', 'run_id': 'order_products_prior_20260627063549'}
+2026-06-27 06:38:46,557 | INFO | Audit record created
+2026-06-27 06:38:46,559 | INFO | {'run_id': 'order_products_prior_20260627063549', 'dataset_name': 'order_products_prior', 'start_time': '2026-06-27T06:35:49.735003+00:00', 'end_time': '2026-06-27T06:38:46.549092+00:00', 'duration_seconds': 176, 'status': 'SUCCESS', 'records_processed': 32434489, 'file_name': 'order_products__prior.csv', 'error_message': None}
+2026-06-27 06:38:55,912 | INFO | order_products_prior/load_date=2026-06-27/order_products_prior.csv uploaded successfully
+2026-06-27 06:38:56,359 | INFO | --- Starting ingestion: order_products_train ---
+2026-06-27 06:39:01,666 | INFO | Metadata record created
+2026-06-27 06:39:01,666 | INFO | {'dataset_name': 'order_products_train', 'source_file_name': 'order_products__train.csv', 'source_file_path': 'data/source/archive/order_products__train.csv', 'file_size_bytes': 24680147, 'row_count': 1384617, 'column_count': 4, 'column_names': 'order_id,product_id,add_to_cart_order,reordered', 'load_date': '2026-06-27', 'ingestion_timestamp': '2026-06-27T06:39:01.665609', 'checksum': '5d8f7580855097e3644ea626ee430b75', 'run_id': 'order_products_train_20260627063856'}
+2026-06-27 06:39:01,667 | INFO | Audit record created
+2026-06-27 06:39:01,667 | INFO | {'run_id': 'order_products_train_20260627063856', 'dataset_name': 'order_products_train', 'start_time': '2026-06-27T06:38:56.363613+00:00', 'end_time': '2026-06-27T06:39:01.665614+00:00', 'duration_seconds': 5, 'status': 'SUCCESS', 'records_processed': 1384617, 'file_name': 'order_products__train.csv', 'error_message': None}
+2026-06-27 06:39:02,355 | INFO | order_products_train/load_date=2026-06-27/order_products_train.csv uploaded successfully
+2026-06-27 06:39:02,658 | INFO | ========================================
+2026-06-27 06:39:02,661 | INFO | SUMMARY  |  total=6  passed=6  failed=0
+2026-06-27 06:39:02,663 | INFO |   ✓ aisles, departments, products, orders, order_products_prior, order_products_train
+2026-06-27 06:39:02,665 | INFO | ========================================
+2026-06-27 08:16:34,042 | INFO | ============================================================
+2026-06-27 08:16:34,045 | INFO | Spark Session Started
+2026-06-27 08:16:34,046 | INFO | Application : MinIO Smoke Test
+2026-06-27 08:16:34,047 | INFO | Spark Version : 3.5.1
+2026-06-27 08:16:34,048 | INFO | ============================================================
+2026-06-27 08:31:29,338 | INFO | ============================================================
+2026-06-27 08:31:29,341 | INFO | Spark Session Started
+2026-06-27 08:31:29,342 | INFO | Application : MinIO Smoke Test
+2026-06-27 08:31:29,344 | INFO | Spark Version : 3.5.1
+2026-06-27 08:31:29,345 | INFO | ============================================================
